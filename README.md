@@ -22,7 +22,21 @@ The project leverages a publicly available dataset from Kaggle to investigate:
 * **Quality**: Clean, no missing values; may include synthetically generated data (R² = 1 observed in some models).
 
 ---
+## 🚀 How to Run the Application
 
+### 📦 Dependencies
+All required packages will be automatically installed the first time you run the classification model.
+
+### 🖥️ Running the App
+To start the application, use the following command in your terminal:
+
+```bash
+streamlit run path_to_app.py
+```
+**Note**:
+Ensure that path_to_app.py is located in the same directory as the required .pkl (pickled model) files. The application depends on these files being present to function correctly.
+
+---
 ## Methodology
 
 ### Data Processing
